@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <img src="CSET_OWL.jpg" alt="CSET OWL Logo" id="logo">
+            <h1>Assignment 1</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Oregon Tech</a></li>
+                <li><a href="#">CSET</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>About You</h2>
+            <form action="https://otapp-cstwebdev.azurewebsites.net/" method="POST">
+                <div class="grid-container">
+                    <div>
+                        <label for="student-id">Student ID</label>
+                        <input type="text" id="student-id" name="student_id" placeholder="918..." maxlength="9">
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="user-type">User Type</label>
+                        <select id="user-type" name="user_type">
+                            <option value="student">Student</option>
+                            <option value="faculty">Faculty</option>
+                            <option value="staff">Staff</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="hobby">Hobby</label>
+                        <input type="text" id="hobby" name="hobby">
+
+                        <label for="band">Band</label>
+                        <input type="text" id="band" name="band">
+                    </div>
+                </div>
+
+                <label for="bio">Biography</label>
+                <textarea id="bio" name="biography" rows="4"></textarea>
+
+                <div class="course-grid">
+                    <div>
+                        <label for="course-prefix">Course Prefix</label>
+                        <input type="text" id="course-prefix" name="course_prefix" maxlength="4">
+                    </div>
+                    <div>
+                        <label for="course-number">Course Number</label>
+                        <input type="text" id="course-number" name="course_number" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="course-description">Course Description</label>
+                        <input type="text" id="course-description" name="course_description">
+                    </div>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </main>
+    </div>
+    
+    <footer>
+        &copy; CSET, All Rights Reserved
+    </footer>
+</body>
+</html>
