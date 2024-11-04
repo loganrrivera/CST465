@@ -1,0 +1,16 @@
+<h2>Contact Us (HTML Form)</h2>
+<form asp-action="Contact" method="post">
+    <div class="mb-3">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

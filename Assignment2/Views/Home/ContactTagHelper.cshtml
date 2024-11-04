@@ -1,0 +1,18 @@
+@model LR.Models.ContactModel
+
+<h2>Contact Us (Tag Helper Form)</h2>
+<form asp-action="Contact" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" type="text" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" type="email" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Message" class="form-label"></label>
+        <textarea asp-for="Message" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

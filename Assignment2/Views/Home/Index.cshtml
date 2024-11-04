@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Online Bookstore</h2>
+    <p>This will be an Online Bookstore where users can browse, review, and purchase books. There are three types of users: <strong>Anonymous Users</strong> (can browse books), <strong>Registered Users</strong> (can purchase and review books), and <strong>Administrators</strong> (manage books, orders, and reviews).</p>
+
+    <h3>Project Features:</h3>
+    <div class="features-section">
+        <p><strong>Catalog</strong>: Display a catalog of books with titles, authors, descriptions, prices, and ratings.</p>
+        <p><strong>Shopping Cart</strong>: Users can add books to a cart, review the cart, and proceed to checkout.</p>
+        <p><strong>Admin Management</strong>: Administrators have control over adding, updating, or removing books and moderating reviews.</p>
+    </div>
+
+    <h3>Data Layer Requirements:</h3>
+    <div class="data-layer-section">
+        <p><strong>Book</strong>: Stores book information (such as title, author, description, price).</p>
+        <p><strong>User</strong>: Manages user profiles, including roles.</p>
+        <p><strong>Order</strong>: Keeps track of users' purchases and order status.</p>
+    </div>
+
+    <h3>Security & Validation:</h3>
+    <div class="security-section">
+        <p><strong>Role-based Access Control</strong>: Restrictions based on user roles using ASP.NET Identity.</p>
+        <p><strong>Validation</strong>: Use server- & client- side validation to prevent SQL injection, XSS, and CSRF attacks.</p>
+    </div>
+
+</div>
