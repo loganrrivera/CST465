@@ -1,0 +1,16 @@
+﻿@model List<Assignment3.Code.DataModels.BlogPost>
+
+<h2>Blog Posts</h2>
+
+<a asp-action="Add" asp-controller="Blog" class="btn btn-primary">Add New Post</a>
+
+@foreach (var post in Model)
+{
+    <div class="blog-post">
+        <h2>@post.Title</h2>
+        <p><strong>Author:</strong> @post.Author</p>
+        <p><strong>Published:</strong> @post.Timestamp.ToString("g")</p>
+        <p>@post.Content</p>
+        <a asp-action="Edit" asp-controller="Blog" asp-route-id="@post.ID" class="btn btn-secondary">Edit Post</a>
+    </div>
+}
