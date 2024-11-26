@@ -1,0 +1,19 @@
+@model List<Midterm.TestQuestionModel>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Question</th>
+            <th>Answer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var question in Model)
+        {
+            <tr>
+                <td>@question.Question</td>
+                <td>@question.Answer</td>
+            </tr>
+        }
+    </tbody>
+</table>

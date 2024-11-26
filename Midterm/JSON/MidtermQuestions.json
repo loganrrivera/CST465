@@ -1,0 +1,411 @@
+{
+  "MidtermExam": {
+    "Questions": [
+      {
+        "ID": 1,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": ".NET Standard libraries only work with .NET Framework"
+      },
+      {
+        "ID": 2,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "Browsers must support ASP.NET in order to display pages created with it"
+      },
+      {
+        "ID": 3,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "It is good practice to use inline CSS styles"
+      },
+      {
+        "ID": 4,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "Razor View code beginning with @ is interpreted by the browser"
+      },
+      {
+        "ID": 5,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "HTTP Status Code 200 indicates an error"
+      },
+      {
+        "ID": 6,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "The description meta element is useful for search engine optimization"
+      },
+      {
+        "ID": 7,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "MVC is a design pattern only used by Microsoft ASP.NET technologies"
+      },
+      {
+        "ID": 8,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "It is important that @section definitions be in the correct order within a view"
+      },
+      {
+        "ID": 9,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "A SqlCommand object will automatically close the associated connection when it is done executing"
+      },
+      {
+        "ID": 10,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "The repository design pattern serves to decouple the business logic layer form the specifics how/where data is stored"
+      },
+      {
+        "ID": 11,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "List the following in the order of precedence (highest to lowest) for defining CSS styles: internal stylesheet, browser stylesheet, external stylesheet, inline style"
+      },
+      {
+        "ID": 12,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "List the following CSS selector types in order of precedence (highest to lowest): element selector, attribute/class selector, ID selector, inline style"
+      },
+      {
+        "ID": 13,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "Why should you always use parameters for SQL statements instead of directly concatenating values into the string?"
+      },
+      {
+        "ID": 14,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "An ASP.NET website should never allow the code to write data to the project folder on the server, with the exception of what special folder?"
+      },
+      {
+        "ID": 15,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "Given the following CSS for a div, what are the final height and width of each div box? div{width: 50px; height: 25px; padding: 5px 10px;}"
+      },
+      {
+        "ID": 16,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "Given the following CSS for a div, what are the final height and width of each div box?(Duplicate specification of margin is intentional) div{width: 30px; height: 20px; padding: 5px; margin: 3px 2px 5px 5px; border: solid 1px #000; margin-left: 10px;}"
+      },
+      {
+        "ID": 17,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "Given the following CSS selector, how many ID selectors, class/attribute selectors and element selectors are there (e.g. ID:1,Class/Attribute:2, Element:0)<br />html body main.mainSection div ul#anchorList .item a[data-type=\"statusLink\"]{}"
+      },
+      {
+        "ID": 18,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "What is _ViewStart.cshtml used for?"
+      },
+      {
+        "ID": 19,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "What is _ViewImports.cshtml used for?"
+      },
+      {
+        "ID": 20,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "What HTTP 'method' is used when you type an address into the location bar of your browser and press 'Enter'?"
+      },
+      {
+        "ID": 21,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "What is the purpose of the DOCTYPE declaration at the top of a web page"
+      },
+      {
+        "ID": 22,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "What is the difference between inline and block HTML elements"
+      },
+      {
+        "ID": 23,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "Explain why the alt attribute of the img tag is important"
+      },
+      {
+        "ID": 24,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "Explain how a using(){ } block functions and what types of objects it applies to"
+      },
+      {
+        "ID": 25,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "I often drone on about HTML being a semantic language.  What do I mean, and how does this affect the way HTML should be written"
+      },
+      {
+        "ID": 26,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "A business object can be used as the model as part of the MVC pattern.  Why would we create a model separate from this for use with the view?"
+      },
+      {
+        "ID": 27,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "Name two benefits of using dependency injection"
+      },
+      {
+        "ID": 28,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "HTML Stands For",
+        "Choices": [
+          "HoTMaiL",
+          "Highly Transferable Modeling Language",
+          "HyperText Markup Language",
+          "High Traffic Masking Language"
+        ]
+      },
+      {
+        "ID": 29,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "For accessibility, all controls that ask for user input must have an associated:",
+        "Choices": [
+          "label",
+          "validator",
+          "style",
+          "All of the above"
+        ]
+      },
+      {
+        "ID": 30,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Which of the following elements is most appropriate for presenting the user with a list of items in no particular order?",
+        "Choices": [
+          "ol",
+          "ul",
+          "dl",
+          "select"
+        ]
+      },
+      {
+        "ID": 31,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "The living version of a page within the browser is called the",
+        "Choices": [
+          "Output Rendering Model",
+          "ViewModel",
+          "Document Object Model",
+          "Box Model"
+        ]
+      },
+      {
+        "ID": 32,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Given the following HTML, which selector matches and is the most specific for referring to the innermost div?<br />&lt;div&gt;&lt;div id=\"specificBox\" class=\"color\"&gt;&lt;/div&gt;&lt;div&gt;",
+        "Choices": [
+          "div div.color",
+          "div#specificBox",
+          "div.color div#specificBox",
+          "div#specificBox.color"
+        ]
+      },
+      {
+        "ID": 33,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Given the following route definition, and assuming the site only contains one controller named HomeController with no attribute routing, which of the following URLs is invalid?<br />{controller=Home}/{action=Index}/{id?}",
+        "Choices": [
+          "/",
+          "/Home",
+          "/Home/Index",
+          "/Index",
+          "/Home/Index/5",
+          "They are all valid"
+        ]
+      },
+      {
+        "ID": 34,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "In MVC, business logic is intended to be placed in",
+        "Choices": [
+          "The Model",
+          "The View",
+          "The Controller",
+          "All of the above"
+        ]
+      },
+      {
+        "ID": 35,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Which of the following is not a valid HTTP method?",
+        "Choices": [
+          "GET",
+          "PUT",
+          "POST",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "ID": 36,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Which of the following elements should all pages contain?",
+        "Choices": [
+          "ul",
+          "main",
+          "header",
+          "div",
+          "title"
+        ]
+      },
+      {
+        "ID": 37,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Which of the following view types can accept a model and render output that is at the discretion of the developer?",
+        "Choices": [
+          "View",
+          "Editor Template",
+          "Display Template",
+          "Partial View",
+          "All of the above"
+        ]
+      },
+      {
+        "ID": 38,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Given the following HTML input, what key/value pair will be sent to the server?<br />&lt;input type=\"text\" id=\"FirstName\" name=\"Name\" value=\"Jordan\" placeholder=\"Richard\" /&gt;",
+        "Choices": [
+          "Name:Jordan",
+          "FirstName:Jordan",
+          "Name:Richard",
+          "FirstName:Richard",
+          "Name:",
+          "FirstName:"
+        ]
+      },
+      {
+        "ID": 39,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "When a server sends a cache-control header specifying how clients/proxies can store the data, this is referred to as _____________ caching."
+      },
+      {
+        "ID": 40,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "When a server renders the output of a view and stores this output in memory for faster page serving, this is referred to as _____________ caching."
+      },
+      {
+        "ID": 41,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "When a server stores a subset of information, such as data queried from a repository, to a location such as memory or a caching utility to speed up the rendering of the page, this is referred to as _____________ caching."
+      },
+      {
+        "ID": 42,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "Other than defying convention, renaming the Models folder in your project won't lead to any issues"
+      },
+      {
+        "ID": 43,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "Other than defying convention, renaming the Views folder in your project won't lead to any issues"
+      },
+      {
+        "ID": 44,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "Other than defying convention, renaming the Controllers folder in your project won't lead to any issues."
+      },
+      {
+        "ID": 45,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "ASP.NET uses model-binding to automatically map data passed in to a controller into a model object.  How might this enable form over-posting, and how can we prevent it?"
+      },
+      {
+        "ID": 46,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "What is the difference in routing between using app.MapControllers() and app.MapDefaultControllerRoute() in an ASP.NET Core application?"
+      },
+      {
+        "ID": 47,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "When jQuery validation is used on the client-side, it is still necessary to check ModelState.IsValid in the controller action"
+      },
+      {
+        "ID": 48,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "Turning on the display of exceptions to the user is a good idea in production environments so that your users can more easily report errors that they run into on your site"
+      },
+      {
+        "ID": 49,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "With regards to Dependency Injection, a Transient object refers to one that",
+        "Choices": [
+          "Is created every time an instance of the object is asked for in your application",
+          "Is created once for each request to the web server",
+          "Is created once for each type of object that is utilizing it"
+        ]
+      },
+      {
+        "ID": 50,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "With regards to Dependency Injection, a Scoped object refers to one that ",
+        "Choices": [
+          "Is created every time an instance of the object is asked for in your application",
+          "Is created once for each request to the web server",
+          "Is created once for each type of object that is utilizing it"
+        ]
+      },
+      {
+        "ID": 51,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "With regards to Dependency Injection, a Singleton object refers to one that ",
+        "Choices": [
+          "Is created every time an instance of the object is asked for in your application",
+          "Is created once for each request to the web server",
+          "Is created once for each type of object that is utilizing it"
+        ]
+      },
+      {
+        "ID": 52,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "When using a Bootstrap grid, the count of column widths should always add up to ___________ within a row",
+        "Choices": [
+          "4",
+          "8",
+          "12",
+          "16"
+        ]
+      },
+      {
+        "ID": 53,
+        "QuestionType": "MultipleChoiceQuestion",
+        "Question": "Special pieces of code that handle the HTTP request/response pipeline in ASP.NET are known as ",
+        "Choices": [
+          "handlers",
+          "modules",
+          "middleware",
+          "pipe fittings"
+        ]
+      },
+      {
+        "ID": 54,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "Does the order in which middleware is registered matter?  Why or Why Not?"
+      },
+      {
+        "ID": 55,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "One great thing about extension methods is that they can access private variables of the classes they extend"
+      },
+      {
+        "ID": 56,
+        "QuestionType": "TrueFalseQuestion",
+        "Question": "When referencing a model in a view, @model refers to the instance of the object and @Model is used at the top to declare the type of the instance"
+      },
+      {
+        "ID": 57,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "In which file do you register items with the dependency injection container in an ASP.NET Core application?"
+      },
+      {
+        "ID": 58,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "In which file do you add middleware to the pipeline in an ASP.NET Core application?"
+      },
+      {
+        "ID": 59,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "How many items on a web page are allowed to have the same value for the id attribute?"
+      },
+      {
+        "ID": 60,
+        "QuestionType": "ShortAnswerQuestion",
+        "Question": "How many items on a web page are allowed to have the same value for the class attribute?"
+      },
+      {
+        "ID": 61,
+        "QuestionType": "LongAnswerQuestion",
+        "Question": "With regards to middleware, explain what is meant by short-circuiting the pipeline and how it is achieved"
+      }
+    ]
+  }
+}
