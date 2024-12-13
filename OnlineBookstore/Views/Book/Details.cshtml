@@ -1,0 +1,37 @@
+@model OnlineBookstore.Models.Book
+
+<h1>Book Details</h1>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <!-- Check if CoverImage is not null before displaying the image -->
+                @if (!string.IsNullOrEmpty(Model.CoverImage))
+                {
+                    <img src="@Url.Content(Model.CoverImage)" alt="Book Cover" class="card-img-top img-fluid book-cover" />
+                }
+                else
+                {
+                    <img src="~/images/default-cover.jpg" alt="Default Book Cover" class="card-img-top img-fluid book-cover" />
+                }
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Title</h5>
+                <p class="card-text"><strong>Author:</strong> @Model.Author</p>
+                <p class="card-text"><strong>Description:</strong> @Model.Description</p>
+                <p class="card-text"><strong>Price:</strong> @Model.Price.ToString("C")</p>
+                <p class="card-text"><strong>Rating:</strong> @Model.Rating</p>
+                <a href="@Url.Action("Edit", "Book", new { id = Model.Id })" class="btn btn-warning">Edit</a>
+                <a href="@Url.Action("Delete", "Book", new { id = Model.Id })" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="mt-4">
+        <a href="@Url.Action("Index", "Book")" class="btn btn-primary">Back to Book List</a>
+    </div>
+</div>

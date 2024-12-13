@@ -1,0 +1,39 @@
+@model IEnumerable<OnlineBookstore.Models.Book>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Available Books</h1>
+
+    <div class="row">
+        @foreach (var book in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <!-- Check if CoverImage is not null before displaying the image -->
+                    @if (!string.IsNullOrEmpty(book.CoverImage))
+                    {
+                        <img src="@Url.Content(book.CoverImage)" alt="Book Cover" class="card-img-top" />
+                    }
+                    else
+                    {
+                        <img src="~/images/default-cover.jpg" alt="Default Book Cover" class="card-img-top" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">@book.Author</p>
+                        <p class="card-text"><strong>@book.Price.ToString("C")</strong></p>
+                        <a href="@Url.Action("Details", "Book", new { id = book.Id })" class="btn btn-primary">View Details</a>
+                        <a href="@Url.Action("Edit", "Book", new { id = book.Id })" class="btn btn-warning">Edit</a>
+                        <a href="@Url.Action("Delete", "Book", new { id = book.Id })" class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+
+    <a href="@Url.Action("Create", "Book")" class="btn btn-success mt-4">Add New Book</a>
+</div>
